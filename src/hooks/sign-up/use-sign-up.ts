@@ -3,7 +3,7 @@ import { useToast } from "@/components/ui/use-toast";
 import {
   UserRegistrationProps,
   UserRegistrationSchema,
-} from "@/app/schemas/auth.schema";
+} from "@/schemas/auth.schema";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useSignUp } from "@clerk/nextjs";
 import { useRouter } from "next/navigation";
